@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://swarnika.netlify.app/sitemap.xml

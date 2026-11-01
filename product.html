@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product | Swarnika</title>
+  <meta name="description" content="1 gram gold plated jewellery from Swarnika. Order on WhatsApp.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://swarnika.netlify.app/product.html">
+  <meta name="theme-color" content="#0E3B35">
+  <link rel="manifest" href="manifest.json">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <meta property="og:type" content="product">
+  <meta property="og:site_name" content="Swarnika">
+  <meta property="og:title" content="Swarnika – 1 gram gold jewellery">
+  <meta property="og:description" content="1 gram gold plated jewellery. Order on WhatsApp.">
+  <meta property="og:url" content="https://swarnika.netlify.app/product.html">
+  <meta property="og:image" content="https://swarnika.netlify.app/images/share.jpg">
+  <meta property="product:price:amount" content="0">
+  <meta property="product:price:currency" content="INR">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230E3B35'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23C9962B' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="common.js" defer></script>
+  <script src="product.js" defer></script>
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <a class="skip" href="#detail">Skip to product</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html" aria-label="Swarnika home">
+        <span class="mark" aria-hidden="true"></span>Swarnika
+      </a>
+      <nav aria-label="Main">
+        <a href="index.html#shop">Shop</a>
+        <a href="index.html#how">How to order</a>
+        <button type="button" id="openCartBtn" class="nav-cart-btn" aria-label="Open Cart">
+          Bag (<span id="cartFloatingCount">0</span>)
+        </button>
+        <a class="nav-wa" data-wa-general href="#" target="_blank" rel="noopener noreferrer">WhatsApp us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
+    <section id="detail" class="pd" aria-label="Product details"></section>
+
+    <noscript>
+      <p class="notice">Please turn on JavaScript to see this product, or message us on WhatsApp and we will send you the details.</p>
+    </noscript>
+
+    <section id="similar" class="similar" aria-labelledby="similar-title">
+      <h2 id="similar-title">Similar items</h2>
+      <div id="similarGrid" class="grid"></div>
+    </section>
+
+    <section id="more" class="similar" aria-labelledby="more-title">
+      <h2 id="more-title">You may also like</h2>
+      <div id="moreGrid" class="grid"></div>
+    </section>
+
+    <section class="similar" aria-labelledby="cats-title">
+      <h2 id="cats-title">Browse by category</h2>
+      <div id="catLinks" class="chips"></div>
+    </section>
+  </main>
+
+  <!-- Slide-out Bag Drawer -->
+  <div id="cartDrawer" class="cart-drawer">
+    <div id="cartDrawerOverlay" class="cart-drawer-overlay"></div>
+    <div class="cart-drawer-content">
+      <div class="cart-header">
+        <h3>Shopping Bag</h3>
+        <button type="button" id="cartCloseBtn" class="cart-close" aria-label="Close bag">&times;</button>
+      </div>
+      <div id="cartItemsList" class="cart-items-list"></div>
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>Subtotal</span>
+          <span id="cartTotalAmount">₹0</span>
+        </div>
+        <a id="cartCheckoutBtn" class="btn btn-wa btn-lg" target="_blank" rel="noopener noreferrer">
+          Send Order on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <div>
+        <p class="brand foot-brand"><span class="mark" aria-hidden="true"></span>Swarnika</p>
+        <p>1 gram gold plated jewellery. Direct WhatsApp orders.</p>
+      </div>
+      <div>
+        <p><a data-wa-general href="#" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></p>
+        <p>Direct assistance 10:00 AM – 8:00 PM</p>
+      </div>
+    </div>
+    <p class="legal">&copy; <span id="year">2026</span> Swarnika. 1 Gram Gold Plating. Product shades may slightly vary due to studio lighting.</p>
+  </footer>
+
+  <a class="float-wa" data-wa-general href="#" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.200-.5.100-1 .2-3.200-.7-2.700-1.100-4.400-3.800-4.500-4-.1-.2-1.100-1.400-1.100-2.700s.7-1.900.9-2.200c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .5l-.4.600c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.4.100.6-.1l.8-1c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.100.200.100.800-.1 1.400Z"/></svg>
+  </a>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://swarnika.netlify.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://swarnika.netlify.app/product.html?id=N-101</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://swarnika.netlify.app/product.html?id=N-102</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://swarnika.netlify.app/product.html?id=N-103</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://swarnika.netlify.app/product.html?id=E-201</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://swarnika.netlify.app/product.html?id=E-202</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://swarnika.netlify.app/product.html?id=E-203</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://swarnika.netlify.app/product.html?id=B-301</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://swarnika.netlify.app/product.html?id=S-401</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+</urlset>
